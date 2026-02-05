@@ -2,7 +2,6 @@ WEB_PROJECT_HOMELAND
 
 Exercício de criação de site responsivo, foco no entendimento de padrões para que o site seja harmônico em diferentes telas.
 
-Início da construção do site - Janeiro, 29. 2026.
 
 Clone do GitHub;
 Criação de diretórios e arquivos;
@@ -17,3 +16,8 @@ Correções específicas - solo;
 Correções específicas - com tutoria;
 Refatoração estrutural do CSS;
 
+link de publicação via GitHub Pages
+https://nickolassol.github.io/web_project_homeland/
+
+Início da construção do site - Janeiro, 29. 2026.
+Finalização e primeira entrega do projeto - Fevereiro, 05. 2026.
