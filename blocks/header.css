@@ -1,0 +1,50 @@
+
+.header {
+  max-width: 984px;
+  margin-top: 34px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__logo {
+  top: 34px;
+  left: 513px;
+  opacity: 1;
+}
+
+.header__content {
+  display: flex;
+  opacity: 1;
+  margin-bottom: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__title {
+  max-width: 700px;
+  font-family: Inter;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0px;
+  margin-top: 90px;
+}
+
+.header__description {
+  max-width: 720px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.header__image {
+  width: 100%;
+  object-fit: cover;
+}
