@@ -1,0 +1,42 @@
+.place {
+}
+
+.place__name {
+    grid-column: 1; /* Título na primeira coluna */
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.place__artist {
+    grid-column: 2; /* Texto "Artistas" na segunda coluna */
+    align-self: end; /* Alinha na base da linha do título */
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.place__artist-name {
+    grid-column: 2; /* Nome dos artistas abaixo da palavra "Artistas" */
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.place__image {
+    grid-column: 1 / span 2; /* A imagem estica pelas duas colunas */
+    width: 50%;
+}
+
+.place__description {
+    grid-column: 1 / span 2; /* As descrições também ocupam a largura total */
+  /* Se quiser o efeito de colunas no texto, use column-count: */
+    column-count: 2;
+    column-gap: 40px;
+    font-size: 18px;
+    line-height: 16, 3;
+}
+
+.place__buy-buttom {
+    background-image: linear-gradient( #0278FE, #003A7B);
+)
+}
+
