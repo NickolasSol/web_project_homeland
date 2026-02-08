@@ -21,3 +21,13 @@ https://nickolassol.github.io/web_project_homeland/
 
 Início da construção do site - Janeiro, 29. 2026.
 Finalização e primeira entrega do projeto - Fevereiro, 05. 2026.
+Aceite final por parte da equipe revisora - Fevereiro, 06. 2026.
+
+WEB_PROJECT_HOMELAND PART II 
+
+Exercício de criação de site responsivo, foco no uso de grid, sombras e gradientes.
+
+Divisão das etapas a serem seguidas para o desenvolvimento do site;
+Criação das novas tags, classes e textos no HTML;
+Exportação, compressão e inclusão das imagens;
+Implementação dos estilos no CSS;
