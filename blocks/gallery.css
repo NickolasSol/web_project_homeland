@@ -1,7 +1,7 @@
 .gallery {
   min-height: calc(100vh - 72px);
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, 27%);
   grid-template-rows: repeat(2, 20%);
   gap: 16px;
   margin: 118px;
