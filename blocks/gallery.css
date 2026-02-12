@@ -1,8 +1,9 @@
-.gallery {
+ .gallery { 
   /* min-height: calc(100vh - 72px); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 213px) ;
+  grid-template-rows: repeat(2, 213px);
+  object-fit: cover;
   gap: 16px;
   margin: 118px 48px;
 }
