@@ -46,6 +46,17 @@
   .intro__content {
     max-width: 711px;
   }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 264px) ;
+  
+  }
+
+  .gallery__image {
+    max-width: 352px;
+    /* max-height: 264px; */
+  }
 }
 
 @media screen and (max-width: 544px) {
