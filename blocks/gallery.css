@@ -1,5 +1,5 @@
- .gallery { 
-  /* min-height: calc(100vh - 72px); */
+  .gallery { 
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 213px);
@@ -18,10 +18,10 @@
 
 @media screen and (max-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 213px);
-    max-width: 1024px; 
-    margin: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 213px);
+  max-width: 1024px; 
+  margin: 24px;
 
   }
 
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 544px) {
-.gallery {
+  .gallery {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(8, 216px)
 }

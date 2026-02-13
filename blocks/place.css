@@ -22,7 +22,6 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 72px;
-    /* font-family: "Inter"; */
     padding-right: 20px;
     margin-bottom: 0;
     align-self: flex-end;
@@ -61,15 +60,12 @@
     line-height: 22px;
 }
 
-.place__description {
-    /* display: grid; */
+.place__description {   
     font-size: 18px;
     line-height: 163%;
     margin-bottom: 10px;
     grid-area: description;
-    /* gap: 25px; */
     margin: 0;
-
 }
 
 .place__paragraph {
@@ -108,60 +104,57 @@
 }
 
 @media screen and (max-width: 1024px) {
-   .place {
-  margin: 0 24px;
-  }
+    .place {
+    margin: 0 24px;
+}
 
-  .place__item {
+    .place__item {
     grid-template-columns: 340px 1fr;
     grid-template-rows: auto 340px auto;
     gap: 28px;
-  }
+}
 
-  
-  .place__name {
-        font-size: 42px;
+
+    .place__name {
+    font-size: 42px;
     line-height: 46px;
-  }
+}
 
-  .place__artist {
-  line-height: 22px;
-  }
+.place__artist {
+    line-height: 22px;
+}
 
-  .place__artist-name {
+.place__artist-name {
     margin: 0;
-  }
+}
 
-  .place__description {
+.place__description {
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
 letter-spacing: 0%;
+}  
 
-  }  
-
- .place__buy-button {
+.place__buy-button {
     width: auto;
     font-size: 16px;
-
- }
+}
 }
 
 @media screen and (max-width: 544px) {
-     .place {
+.place {
     display: flex;
     margin: 0;
     gap: 50px;
     flex-direction: column;
-
 }
 
 .place__item {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto 320px auto auto;
-  gap: 16px;
-      grid-template-areas: 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 320px auto auto;
+    gap: 16px;
+    grid-template-areas: 
     "title"  
     "artist"
     "imagem" 
@@ -195,20 +188,16 @@ letter-spacing: 0%;
 }
 
 .place__image {
-      width: 100%;
-  object-fit: cover;
-
+    width: 100%;
+    object-fit: cover;
 }
 
 .place__description {
     padding: 0 16px;
 }
 .place__buy-button {
-    /* max-width: 280px;
-    width: 100%; */
     padding: 0 16px;
     font-size: 14px;
     margin: 0 auto;
-
 }
 }
